@@ -1,0 +1,143 @@
+
+
+body{
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/bg-mountain.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.paragraph{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav-bar{
+    position: fixed;
+    font-size: 20px;
+    width: 95%;
+    padding: 0px 10px;
+
+    
+}
+.nav-bar a{
+    color: palevioletred;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.nav-bar a:hover{
+    color: white;
+    cursor: pointer;
+
+}
+
+.div-container{
+    width: 80%;
+    margin: auto;
+    color: white;
+    display: block;
+    text-align: center;
+    
+    
+}
+
+.frm-container{
+    width: 100px;
+    display: inline;
+    margin: auto;
+    text-align: center;
+    margin-left: 43%;
+}
+.header-1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 20px 0px 1px;
+    padding-top: 10px;
+}
+#prof-pic{
+    width: 20%;
+    margin: auto;
+    display: block;
+    margin-bottom: 0px;
+}
+
+/*.form{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+
+}*/
+#about-btn{
+    border-radius: 15%;
+    color: grey;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 1px;
+    cursor: pointer;
+ 
+}
+#about-btn a{
+    text-decoration: none;
+}
+
+#next-btn{
+    border-radius: 15%;
+    color: grey;
+    background-color: black;
+    margin: 0px;
+    padding: 10px 20px;
+    cursor: pointer;    
+}
+
+#next-btn a{
+    text-decoration: none;
+}
+
+
+#contact-btn:hover{
+    color: whitesmoke;
+    background-color: grey;
+}
+
+#next-btn:hover{
+    color: whitesmoke;
+    background-color: grey;
+}
+
+#intro-page p{
+    margin: 1% 0% 5% 0%;    
+    border: 0px;
+    padding: 0px;
+}
+
+
+
+.footer-one{
+    color: whitesmoke;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    border: 50px;
+    background-color: hotpink;
+    opacity: 60%;
+}
+.paragraph-footer{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px;
+}
+
+
