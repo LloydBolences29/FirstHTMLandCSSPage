@@ -118,6 +118,10 @@ body{
     padding: 1px;
 }
 
+#second-intro-page{
+    margin-bottom: 50px;
+}
+
 .section{
     color: white;
     background-color: gray;
@@ -171,11 +175,63 @@ body{
 .aside-section{
     float: right;
     width: 30%;
-    margin: 0px;
     background-color: darkgrey;
-    padding: 25px;
-    margin: 20px;
+    padding: 0px 20px 0px 20px;
+    margin: 10px;
     line-height: 25px;
+}
+
+.aside-section h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.aside-section #first-div-list{
+    float:left;
+    width: 50%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    text-align: center;
+
+
+}
+
+#first-div-list li, #second-div-list li{
+    list-style-type: none;
+    line-height: 50px;
+    font-size: 18px;
+
+}
+
+#first-div-list li a, #second-div-list li a{
+    text-decoration: none;
+}
+
+.aside-section #second-div-list{
+    float: right;
+    width: 50%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.aside-section h5{
+    padding: 20px 0px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+.aside-section blockquote{
+    font-style: italic;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding: 10px 0px;
+
 }
 
 .footer-one{

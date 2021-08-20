@@ -156,13 +156,13 @@ label{
     color: white;
 }
 
-#login-btn{
+#send-btn{
     background-color: black;
     color: white;
     padding: 10px;
 }
 
-#login-btn:hover{
+#send-btn:hover{
     color:grey;
     cursor: pointer;
 }
@@ -178,7 +178,7 @@ label{
     cursor: pointer;
 }
 
-#login-btn, #reset-btn{
+#send-btn, #reset-btn{
     border-radius: 10px;
 }
 
